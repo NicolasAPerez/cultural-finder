@@ -1,0 +1,11 @@
+.block{
+    min-height: 10vh;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.25);
+    background-color: #d7fff0;
+    border-radius: 5px;
+
+    color: #343434;
+    display: flex;
+    justify-content: center;
+}

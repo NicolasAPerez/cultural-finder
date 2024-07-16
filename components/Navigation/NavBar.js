@@ -8,10 +8,10 @@ function NavBar(props) {
             <NavButton name=''>
                 Home
             </NavButton>
-            <NavButton name='RecipeList'>
+            <NavButton name='search'>
                 Recipe List
             </NavButton>
-            <NavButton name='Suggestions'>
+            <NavButton name='suggestion'>
                 Suggestions
             </NavButton>
         </div>

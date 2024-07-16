@@ -1,14 +1,14 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import BasicDetailSegment from "../../components/BasicDetailSegment";
-
-const inter = Inter({ subsets: ["latin"] });
+import BasicDetailSegment from "../../components/Content/BasicDetailSegment";
 
 export default function Home() {
   return (
     <>
-      <BasicDetailSegment/>
+        <BasicDetailSegment growFlex={2}>
+            Test
+        </BasicDetailSegment>
+        <BasicDetailSegment growFlex={1}>
+
+        </BasicDetailSegment>
     </>
   );
 }
