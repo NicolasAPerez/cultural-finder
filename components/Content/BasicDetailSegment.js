@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from "./BasicDetailSegment.module.css";
 
-function BasicDetailSegment({children, color, growFlex = 1}) {
+function BasicDetailSegment({children, color, percentScreen= 100, grow = 1}) {
 
     return (
-        <div className={classes.block} style={{backgroundColor: color, flexGrow: growFlex}}>
+        <div className={classes.block} style={{backgroundColor: color, maxWidth: percentScreen + '%', flexGrow: grow}}>
             {children}
         </div>
     );

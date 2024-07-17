@@ -1,0 +1,9 @@
+.star{
+    color: gold;
+    user-select: none;
+    font-size: max(4vw,30px);
+
+}
+.star:hover{
+    color: darkgoldenrod;
+}

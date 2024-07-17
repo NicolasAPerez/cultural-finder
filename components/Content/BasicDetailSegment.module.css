@@ -7,5 +7,9 @@
 
     color: #343434;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+    overflow: hidden;
+    align-items: center;
 }
