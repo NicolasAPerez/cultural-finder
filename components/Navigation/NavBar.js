@@ -9,7 +9,7 @@ function NavBar(props) {
                 Home
             </NavButton>
             <NavButton name='search'>
-                Recipe List
+                Location List
             </NavButton>
             <NavButton name='suggestion'>
                 Suggestions

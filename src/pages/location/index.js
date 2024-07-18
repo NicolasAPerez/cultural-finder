@@ -7,10 +7,10 @@ function RecipeCatchPage(props) {
         <BasicDetailSegment>
             <h1 style={{margin:"auto"}}>
                 <span>
-                    No Recipe Selected! Would you like to go to the&nbsp;
+                    No Location Selected! Would you like to go to the&nbsp;
                 </span>
                 <Link href='/search' style={{textDecoration:'underline'}}>
-                    Recipe List Page?
+                    Location List Page?
                 </Link>
             </h1>
         </BasicDetailSegment>

@@ -12,19 +12,19 @@ function RatingSegment(props) {
 
     let stars = [];
     for (let i = 0; i < 5; i++){
-        stars.push(<RatingStar number={i} starActive={i < rating} onClick={clickStar}/>)
+        stars.push(<RatingStar number={i} key={i} starActive={i < rating} onClick={clickStar}/>)
     }
 
     return (
-        <BasicDetailSegment color={'LightSkyBlue'} grow={1}>
-            <h3>
+        <BasicDetailSegment color={'LightCoral'} grow={1}>
+            <h3 style={{marginBottom: '-8%', marginTop: '5%', userSelect: 'none'}}>
                 Rating:
             </h3>
             <div>
                 {stars}
             </div>
             <div>
-                Current Rating:
+                Current Rating: 
             </div>
         </BasicDetailSegment>
     );

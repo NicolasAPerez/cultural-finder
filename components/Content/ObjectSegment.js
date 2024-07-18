@@ -1,8 +1,8 @@
 import React from 'react';
 import BasicDetailSegment from "./BasicDetailSegment";
-import classes from "./RecipeSegement.module.css";
+import classes from "./ObjectSegement.module.css";
 
-function RecipeSegment({imgURL,dish = 'Default',percentScreen = 80,children}) {
+function ObjectSegment({imgURL,dish = 'Default',percentScreen = 80,children}) {
     return (
         <BasicDetailSegment percentScreen={percentScreen} color={"darksalmon"}>
             <h2>
@@ -16,4 +16,4 @@ function RecipeSegment({imgURL,dish = 'Default',percentScreen = 80,children}) {
     );
 }
 
-export default RecipeSegment;
+export default ObjectSegment;

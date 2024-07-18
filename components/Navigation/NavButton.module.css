@@ -5,7 +5,7 @@
     border-image: linear-gradient(white 1%, #d35454 45%) 1;
     border-width: 0 thin thick;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     justify-content: center;
 }
 
