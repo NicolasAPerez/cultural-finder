@@ -7,10 +7,10 @@ export default function App({ Component, pageProps }) {
   return(
       <>
           <Head>
-              <title>Recipe Rater</title>
-              <meta name="description" content="Suggest and Rate Recipes" />
+              <title>Cultural Finder</title>
+              <meta name="description" content="Suggest and Rate Locations" />
               <meta name="viewport" content="width=device-width, initial-scale=1" />
-              <link rel="icon" href="/favicon.ico" />
+              <link rel="icon" href="/assets/favicon.ico" />
           </Head>
           <NavBar/>
           <Layout>

@@ -1,6 +1,5 @@
 import BasicDetailSegment from "../../components/Content/BasicDetailSegment";
-import ObjectSegment from "../../components/Content/ObjectSegment";
-import RatingSegment from "../../components/Content/RatingSegment";
+import FeaturedSegment from "../../components/Content/FeaturedSegment";
 
 export default function Home() {
     return (
@@ -9,15 +8,12 @@ export default function Home() {
             <h1>
                 Welcome to the Cultural Finder!
             </h1>
+            <div>
+                This is an application to help find local places for specific cultures!
+            </div>
         </BasicDetailSegment>
         <div>
-            <RatingSegment/>
-            <br></br>
-            <BasicDetailSegment color={'LightPink'}>
-                <h3>
-                    Related Links:
-                </h3>
-            </BasicDetailSegment>
+            <FeaturedSegment/>
         </div>
     </>
     );
